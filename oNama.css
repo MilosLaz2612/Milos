@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Header{
+border-bottom: 2px solid rgb(0, 0, 0);
+background-color: black;
+}
+.column{
+/* border: 1px solid black; */
+width: 1000px;
+margin: 0px auto;
+}
+
+.Page .column{
+    height: 100vh;
+}
+
+#logo-i-social{
+    display: flex;
+}
+
+#logo-holder{
+    flex-grow: 1;
+}
+#logo-holder img{
+    height: 30px;
+    width: 30px;
+}
+#social-holder{
+    flex-grow: 1;
+    text-align: right;
+}
+
+#social-holder a{
+    text-decoration: none;
+}
+
+#social-holder a img{
+    margin: 5px;
+    width: 24px;
+    height: 24px;
+}
+
+#main-menu{
+    display: flex;
+}
+
+#main-menu a{
+    flex-grow: 1;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 400ms;
+    border-bottom: solid 2px rgb(44, 23, 238);
+}
+#main-menu a:hover, 
+#main-menu a.active {
+    background: rgb(44, 23, 238);
+    color: white;
+}
+.align-centar{
+    text-align: center;
+
+}
+.krugovi-1{
+    display:flex;
+    
+}
+.kurg-holder{
+    flex-grow: 1;
+    text-align: center;
+}
+.krug{
+    background:red;
+    color: white;
+    font-size: 32px;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    padding: 25%;
+    border-radius: 50%;
+    
+}
+.tehnologije{
+display: flex;
+}
+.tehologija{
+    flex-grow: 1;
+}
